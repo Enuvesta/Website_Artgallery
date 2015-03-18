@@ -193,8 +193,13 @@ p{
 	display:inline-block;
 }
 
-.slide.clicked {
+.slide.right {
 	left: 100%;
+	visibility: hidden;
+}
+
+.slide.left {
+	left: -100%;
 }
 
 #texting{
