@@ -1,0 +1,61 @@
+html {
+	height: 100%;
+}
+body{
+    margin: 0;
+	background: url('fonon2.jpg') repeat 0px 0px; 
+}
+
+
+@font-face {
+    font-family: 'foglihtenno06';
+    src: url('foglihtenno06.eot');
+    src: url('foglihtenno06.eot?#iefix') format('embedded-opentype'),
+         url('foglihtenno06.woff') format('woff'),
+         url('foglihtenno06.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.page{
+    height: 1010px;
+    width: 100%;
+}
+.container{
+    height: 150px;
+}
+.page_logo{
+    height: 100px;
+    padding: 25px 0px 25px 0px;
+    margin: 0 auto;
+    width: 700px;
+    background: url('art.png') no-repeat 10px 10px;
+} 
+.menu{
+    width: 100%;
+    background-color: #ebe4e1;
+    height: 40px;
+}
+.button_r{
+    display:inline-block;
+    height: 30px;
+    width: 100px;
+    margin: 5px 15px 5px 15px; 
+    float: right;
+    background-image: url('menu_item_bg.jpg');
+    background-size: contain;
+    text-align: center;
+    color: #ebe4e1;
+}
+.button_l{
+    display:inline-block;
+    height: 30px;
+    width: 100px;
+    margin: 5px 15px 5px 15px; 
+    float: left;
+    background-image: url('menu_item_bg.jpg');
+    background-size: contain;
+    text-align: center;
+    color: #ebe4e1;
+}
