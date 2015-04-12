@@ -28,6 +28,16 @@ $(document).ready(function(e) {
         $(".control-slide.active").removeClass("active");
         $('.control-slide').eq(slideNum).addClass('active');
         }
+var $linkArrow = $('<a class="prew" href="#">&lt;</a><a class="next" href="#">&gt;</a>')
+    .prependTo('.slider-content');      
+    $('.next').click(function(){
+        animSlide("next");
+        return false;
+        })
+    $('.prew').click(function(){
+        animSlide("prew");
+        return false;
+        })
     var $adderSpan = '';
     $('.slide').each(function(index) {
             $adderSpan += '<span class = "control-slide">' + index + '</span>';
