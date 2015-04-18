@@ -64,40 +64,74 @@ body{
     background-color: #ebe4e1;
     height: 50px;
 }
+.venzel{
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url('Venzel2.png');
+    background-size: cover; 
+}
 .button_r{
     display:inline-block;
-    height: 34px;
-    width: 140px;
-    margin: 5px 10px 5px 10px; 
+    height: 40px;
+    width: 142px;
+    margin: 4px 7px 4px 7px; 
     float: right;
     background-image: url('menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
-    color: #ebe4e1;
-    padding: 5px 0px 0px 0px;
 }
 .button_l{
     display:inline-block;
-    height: 34px;
-    width: 140px;
-    margin: 5px 10px 5px 10px; 
+    height: 40px;
+    width: 142px;
+    margin: 4px 7px 4px 7px; 
     float: left;
     background-image: url('menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
-    color: #ebe4e1;
-    padding: 5px 0px 0px 0px;
 
 }
-.button_r p{
+.button_r a{
     margin: 0px;
     font-family: 'Chibola';
     font-size: 25px;
+    color: #ebe4e1;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
 }
-.button_l p{
+.button_l a{
     margin: 0px;
     font-family: 'Chibola';
     font-size: 25px;
+    color: #ebe4e1;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+.button_r a:hover{
+    text-shadow: 2px 0px 5px rgba(255,255,255,0.5);
+
+}
+.button_l a:hover{
+    text-shadow: 2px 0px 5px rgba(255,255,255,0.5);
+
+}
+.site_descr{
+    width: 400px;
+    height:464px;
+    overflow: hidden;
+    position:relative;
+    float: right;
+    margin: 10px;
+}
+.site_descr p{
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #312819;
+    font-size: 22px;
+    font-family: Courier;
 }
 .slider {
     left: 40px; 
