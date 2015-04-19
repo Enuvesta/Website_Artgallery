@@ -119,16 +119,19 @@ body{
 
 }
 .site_descr{
-    width: 400px;
-    height:464px;
+    width: 435px;
+    height:425px;
     overflow: hidden;
-    position:relative;
     float: right;
-    margin: 10px;
+    margin: 20px 19px 0px 0px;
+    background-color: #ebe4e1;
+    border: 10px double #312819;
+
 }
 .site_descr p{
-    margin-top: 40px;
-    margin-right: 40px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: #312819;
     font-size: 22px;
     font-family: Courier;
@@ -139,6 +142,7 @@ body{
     position:relative;
     float: left;
     margin-top: 20px;
+    margin-left: -30px;
 }
 .slider-content {
     width:750px;
