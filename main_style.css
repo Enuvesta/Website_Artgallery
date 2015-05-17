@@ -176,3 +176,45 @@ body{
 .block-hidden .read-more a{
     color: #fff;    
 }
+#show_on{
+    padding: 0;
+    width: 1000px;
+    height: 500px;
+    overflow: visible;
+    background-color: #ebe4e1;
+    border: 10px double #312819;
+}
+#first{
+    width: 450px;
+    background-image: url('Dostoevsky_1872.jpg');
+    background-size: cover;
+}
+#second{
+    width: 600px;
+    padding: 20px;
+    font-size: 20px;
+    border-left: 10px double #312819;
+}
+.desc{
+    color: #312819;
+    font-family: Courier;
+    font-style: italic;
+    font-size: 19px;
+    margin-top: 5px;
+}
+.about {
+    position:absolute;
+    background-color: #ebe4e1;
+    width:366px;
+    height:50px;
+    opacity: 0.7;
+    bottom: 10px;
+    padding: 10px;
+}
+#fancybox-title-inside{
+    font-size: 25px;
+}
+#second a {
+    font-size: 25px;
+    font-family: 'Chibola';
+}
