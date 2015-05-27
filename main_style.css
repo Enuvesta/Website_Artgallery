@@ -216,6 +216,37 @@ body{
 .popup__image_type_religion{
     background-image: url('94295649_large_Nesterov_Mihail27.png');
 }
+.popup__image_type_barokko{
+    background-image: url('43.jpg');
+}
+.popup__image_type_kubizm{
+    background-image: url('Akhmatova_by_Altman.jpeg.jpeg');
+}
+.popup__image_type_ekspresseonizm{
+    background-image: url('be4dfb60cc1a1d41ac47061390de333d.jpg');
+}
+.popup__image_type_impresseonizm{
+    background-image: url('1-klod-mone-dama-s-zontikom.jpg');
+}
+.popup__image_type_modernizm{
+    background-image: url('vrubel25.jpg');
+}
+.popup__image_type_neoklassicizm{
+    background-image: url('энгр1.jpg');
+}
+.popup__image_type_realizm{
+    background-image: url('ribera-penitent-magdalene.jpg');
+}
+.popup__image_type_romantizm{
+    background-image: url('1319377732.jpg');
+}
+.popup__image_type_surrealizm{
+    background-image: url('hudozhnik-mihail-3.jpg');
+}
+.popup__image_type_simvolizm{
+    background-image: url('aade5faeb0f7eaf74762670c0ae.jpg');
+}
+
 
 .popup__description {
     width: 600px;
