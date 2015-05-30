@@ -3,9 +3,17 @@
 	<head>
 		<link href="http://allfont.ru/css/?fonts=chibola" rel="stylesheet" type="text/css" />
 		<meta charset="utf-8" />
-        <title>Техника</title>
+        <title>Жанры</title>
         <link rel="stylesheet" type="text/css" href="main_style.css"/>
         <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="upload.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+		<script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
+		<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="js/mustache.2.0.min.js"></script>
+		<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 		<link rel="shortcut icon" href="pix.jpg" type="image/x-icon">
 	</head>
 	<body>
@@ -27,150 +35,192 @@
 			  	<caption>Техника</caption>
 			  </tr>
 			  <tr>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/perov3.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Масло</a></div>
-					        <p>Василий Перов - Охотники на привале</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='0'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/Nebesniy_boy.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Темпера</a></div>
-					        <p>Николай Рерих - Небесный бой</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='1'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/A.S.Stroganov_by_Dm.Evreinov_(1806-7,_Hermitage).jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Эмаль</a></div>
-					        <p>Евреинов Д. И. -  Портрет графа А. С. Строганова</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='2'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/r_pic.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Гуашь</a></div>
-					        <p>Каземир Малевич. Автопортрет.</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='3'>
 			  	</td>
 			  	</tr>
 			  	<tr>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/20131219_pastel03.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Пастель</a></div>
-					        <p>Исаак Левитан - Осенний пейзаж с церковью</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='4'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/99461990_r_picCA2YDDL7.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Тушь</a></div>
-					        <p>Иван Шишкин - Дорога в лесу</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='5'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/pic-8.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Живопись по штукатурке</a></div>
-					        <p>Рафаэль Санти - Афинская школа</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='6'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/Duerer_Gruenewald_Harrich_Heller-Altar.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Гризайль</a></div>
-					        <p>Альбрехт Дюрер, Маттиас Грюневальд, Иобст Харрих - Алтарь Геллера </p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='7'>
 			  	</td>
 			  	</tr>
 			  	<tr>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/385px-Angelsatmamre-trinity-rublev-1410.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Карнация</a></div>
-					        <p>Андрей Рублев - Троица</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='8'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Лессировка</a></div>
-					        <p>Леонардо да Винчи - Мона Лиза</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='9'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/440px-Seurat-La_Parade_detail.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Пуантилизм</a></div>
-					        <p>Жорж Сёра - Парад</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='10'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Сфумато</a></div>
-					        <p>Леонардо да Винчи - Иоанн Креститель</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='11'>
 			  	</td>
 			  	</tr>
 			  	<tr>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/Maskarad.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Клеевая живопись</a></div>
-					        <p>Александр Головин - Эскиз декораций к драме «Маскарад».</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='12'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/440px-Fayum-42.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Восковая живопись</a></div>
-					        <p>Портрет мальчика по имени Евтихий.</p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='13'>
 			  	</td>
-			  	<td>
-			  		<div class="home-active">
-					    <img src="Техника/600px-Julaftonen_av_Carl_Larsson_1904.jpg" alt="" />
-					    <div class="block-hidden">
-					        <div class="read-more"><a href="#">Акварель</a></div>
-					        <p>Карл Ларссон - Рождественский вечер </p>    
-					    </div>
-					</div>
+			  	<td class="templated" data-index='14'>
 			  	</td>
 			  </tr>
 			</table>
+			<script type="text/javascript">
+				var all = [{
+					id: 'maslo',
+					name: "Масло",
+					thumbImage: "Техника/perov3.jpg",
+					thumbDesc: "Василий Перов - Охотники на привале",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BB%D1%8F%D0%BD%D0%B0%D1%8F_%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C">Масло</a> – ',
+					description: '«Портрет Достевского» </br>Василий&nbsp;Перов',
+				}, {
+					id: 'tempra',
+					name: "Темпра",
+					thumbImage: "Техника/Nebesniy_boy.jpg",
+					thumbDesc: "Николай Рерих - Небесный бой",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BC%D0%BF%D0%B5%D1%80%D0%B0">Темпра</a> – (фр. Paysage, от pays — страна, местность) —',
+					description: '«Весна. Большая вода» </br>Исаак Левитан',
+				}, {
+					id: 'emal',
+					name: "Эмаль",
+					thumbImage: "Техника/A.S.Stroganov_by_Dm.Evreinov_(1806-7,_Hermitage).jpg",
+					thumbDesc: "Евреинов Д. И. -  Портрет графа А. С. Строганова",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BC%D0%B0%D0%BB%D1%8C">Историческая живопись</a> –',
+				}, {
+					id: 'guash',
+					name: "Гуашь",
+					thumbImage: "Техника/r_pic.jpg",
+					thumbDesc: "Каземир Малевич. Автопортрет",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%93%D1%83%D0%B0%D1%88%D1%8C">Батальная живопись</a> – (от фр. bataille - битва) - ',
+				}, {
+					id: 'pastel',
+					name: "Пастель",
+					thumbImage: "Техника/20131219_pastel03.jpg",
+					thumbDesc: "Исаак Левитан - Осенний пейзаж с церковью",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D1%8C">Натюрморт</a> – ',
+				}, {
+					id: 'tush',
+					name: "Тушь",
+					thumbImage: "Техника/99461990_r_picCA2YDDL7.jpg",
+					thumbDesc: "Иван Шишкин - Дорога в лесу",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%88%D1%8C">Жанровая живопись</a> - ',
+					description: '«Урок фортепиано» </br> Джордж Гудвин Килберн',
+				}, {
+					id: 'shtukaturka',
+					name: "Живопись по штукатурке",
+					thumbImage: "Техника/pic-8.jpg",
+					thumbDesc: "Рафаэль Санти - Афинская школа",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B5%D1%81%D0%BA%D0%B0">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				}, {
+					id: 'grizal',
+					name: "Гризайль",
+					thumbImage: "Техника/Duerer_Gruenewald_Harrich_Heller-Altar.jpg",
+					thumbDesc: "Альбрехт Дюрер, Маттиас Грюневальд, Иобст Харрих - Алтарь Геллера",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B7%D0%B0%D0%B9%D0%BB%D1%8C">Религиозная живопись</a> — ',
+					description: '«Юность преподобного Сергия» </br> Михаил Нестеров',
+				}, {
+					id: 'karnaziya',
+					name: "Карнация",
+					thumbImage: "Техника/385px-Angelsatmamre-trinity-rublev-1410.jpg",
+					thumbDesc: "Андрей Рублев - Троица",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D1%8F">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				}, {
+					id: 'lessirovka',
+					name: "Лессировка",
+					thumbImage: "Техника/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+					thumbDesc: "Леонардо да Винчи - Мона Лиза",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0">Религиозная живопись</a> — ',
+					description: '«Юность преподобного Сергия» </br> Михаил Нестеров',
+				},{
+					id: 'puantilizm',
+					name: "Пуантлизм",
+					thumbImage: "Техника/440px-Seurat-La_Parade_detail.jpg",
+					thumbDesc: "Жорж Сёра - Парад",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D0%B0%D0%BD%D1%82%D0%B8%D0%BB%D0%B8%D0%B7%D0%BC">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				},{
+					id: 'sfumato',
+					name: "Сфумато",
+					thumbImage: "Техника/Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+					thumbDesc: "Леонардо да Винчи - Иоанн Креститель",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%84%D1%83%D0%BC%D0%B0%D1%82%D0%BE">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				},{
+					id: 'kleevaya',
+					name: "Клеевая живопись",
+					thumbImage: "Техника/Maskarad.jpg",
+					thumbDesc: "Александр Головин - Эскиз декораций к драме «Маскарад»",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B5%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				},{
+					id: 'vosk',
+					name: "Восковая живопись",
+					thumbImage: "Техника/440px-Fayum-42.jpg",
+					thumbDesc: "Портрет мальчика по имени Евтихий.",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BD%D0%BA%D0%B0%D1%83%D1%81%D1%82%D0%B8%D0%BA%D0%B0">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				},{
+					id: 'akvarel',
+					name: "Акварель",
+					thumbImage: "Техника/600px-Julaftonen_av_Carl_Larsson_1904.jpg",
+					thumbDesc: "Карл Ларссон - Рождественский вечер",
+					content: '<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C">Архитектурная живопись</a> – ',
+					description: '«Архитектурная фантазия» </br> Шарль Луи Клериссо',
+				}];
+				$(function () {
+					var template = $('#detailed-view').html();
+					$('.templated').each(function() {
+						var index = $(this).data('index');
+						var data = all[index];
+						$(this).html(Mustache.render(template, data));
+						$(this).find('.show').fancybox({
+							'titlePosition' : 'inside',
+							'transitionIn' : 'none',
+							'transitionOut' : 'none',
+							'scrolling': 'no',
+							'fitToView':false,
+							'autoResize':false,
+							'autoScale': true,
+						});
+					});
+
+					$.getJSON('data/genre.json', function (data) {
+						console.log(data);
+					});
+					
+				});
+			</script>
+			<script type="text/html" id="detailed-view">
+				<div class="home-active">
+				    <img src="{{thumbImage}}" alt="" />
+				    <div class="block-hidden">
+				        <div class="read-more"><a class="show" href="#{{id}}" title="{{name}}">{{name}}</a></div>
+				        <p>{{thumbDesc}}</p>
+				        <div style="display: none;">
+						    	<table id="{{id}}" class="popup">
+						    		<tr>
+						    			<td class="popup__image popup__image_type_{{id}}">
+						    				<div class="about">
+												<p class="desc">{{&description}}</p>
+											</div>
+						    			</td>
+						    			<td class="popup__description">{{&content}}</td>
+						    		</tr>
+						    	</table>
+						</div>     
+				    </div>
+				</div>
+			</script>
+
 	</body>
-	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="codejava.js"></script>
 </html>
