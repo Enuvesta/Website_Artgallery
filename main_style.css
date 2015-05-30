@@ -246,6 +246,18 @@ body{
 .popup__image_type_simvolizm{
     background-image: url('aade5faeb0f7eaf74762670c0ae.jpg');
 }
+.popup__image_type_stankovaya{
+    background-image: url('Ivan-Ayvazovskiy-Devyatyy-val-1850.jpg');
+}
+.popup__image_type_monumental{
+    background-image: url('mediapreview.jpg');
+}
+.popup__image_type_decor{
+    background-image: url('87307515_4634571_benois_cost_ballerina_petrushka.jpg');
+}
+.popup__image_type_miniature{
+    background-image: url('13cbb62659c9.jpg');
+}
 
 
 .popup__description {
