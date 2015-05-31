@@ -258,8 +258,48 @@ body{
 .popup__image_type_miniature{
     background-image: url('13cbb62659c9.jpg');
 }
-
-
+.popup__image_type_maslo{
+    background-image: url('68a44.jpg');
+}
+.popup__image_type_tempera{
+    background-image: url('172-2.jpg');
+}
+.popup__image_type_guash{
+    background-image: url('Vincent_van_Gogh_-_Corridor_in_the_Asylum.JPG');
+}
+.popup__image_type_pastel{
+    background-image: url('Chocolate_girl.jpg');
+}
+.popup__image_type_tush{
+    background-image: url('000038.jpg');
+}
+.popup__image_type_freska{
+    background-image: url('1732.jpg');
+}
+.popup__image_type_grizal{
+    background-image: url('cms.jpg');
+}
+.popup__image_type_karnaziya{
+    background-image: url('Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg');
+}
+.popup__image_type_lessirovka{
+    background-image: url('657px-Van_Eyck_-_Arnolfini_Portrait.jpg');
+}
+.popup__image_type_puantilizm{
+    background-image: url('IMG_0030.jpg');
+}
+.popup__image_type_sfumato{
+    background-image: url('the-magdalene(2).jpg');
+}
+.popup__image_type_kleevaya{
+    background-image: url('kleevaya.jpg');
+}
+.popup__image_type_vosk{
+    background-image: url('Petersinai.jpg');
+}
+.popup__image_type_akvarel{
+    background-image: url('Idalia_Poletica_portrait.jpg');
+}
 .popup__description {
     width: 600px;
     padding: 20px;
