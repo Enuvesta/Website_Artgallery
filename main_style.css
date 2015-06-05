@@ -235,10 +235,15 @@ body{
     color: #fff;
 }
 .block-hidden p{
-    position: absolute; bottom: 5%; right: 5%;     
+    position: absolute; 
+    bottom: 5%;
+    right: 5%;
+
 }
 .block-hidden .read-more{
-    position: absolute; top: 5%; left: 5%;   
+    position: absolute;
+    top: 5%;
+    left: 5%;   
 }
 .block-hidden .read-more a{
     color: #fff;    
