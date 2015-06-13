@@ -37,6 +37,7 @@ body{
 
 }
 @import url(http://allfont.ru/css/?fonts=chibola);
+@import url(http://allfont.ru/css/?fonts=harlequinade);
 
 .page{
     height: 100%;
@@ -47,8 +48,8 @@ body{
 }
 .page_logo {
   text-align: center;
-  margin-left: 30%; 
-  display: inline-block;
+  width: 800px;
+  margin: auto;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
