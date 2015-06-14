@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link href="http://allfont.ru/css/?fonts=posteretro" rel="stylesheet" type="text/css" />
+		<link href="http://allfont.ru/css/?fonts=hair-2" rel="stylesheet" type="text/css" />
 		<meta charset="utf-8" />
         <title>Жанры</title>
         <link rel="stylesheet" type="text/css" href="main_style.css"/>
@@ -86,7 +87,7 @@
 							var data = response[index];
 							$(this).html(Mustache.render(template, data));
 							$(this).find('.show').fancybox({
-								'titlePosition' : 'inside',
+								'titleShow' : false,
 								'transitionIn' : 'none',
 								'transitionOut' : 'none',
 								'scrolling': 'no',

@@ -234,13 +234,15 @@ body{
     height: 100%;
     opacity: 1;
     position: absolute; top: 0; left: 0;
-    background: rgba(0,0,0,0.7);
-    color: #fff;
+    background: rgba(41,37,37,0.8);
+    color: #ebe4e1;
 }
 .block-hidden p{
     position: absolute; 
     bottom: 5%;
     right: 5%;
+    font-family: 'PosteRetro';
+    font-size: 13px;
 
 }
 .block-hidden .read-more{
@@ -249,7 +251,9 @@ body{
     left: 5%;   
 }
 .block-hidden .read-more a{
-    color: #fff;    
+    color: #ebe4e1;
+    text-decoration: none;
+    font-family: 'PosteRetro';    
 }
 
 .popup {
@@ -258,7 +262,7 @@ body{
     height: 500px;
     overflow: visible;
     background-color: #ebe4e1;
-    border: 10px double #312819;
+    border: 2px double #312819;
 }
 
 .popup__image {
@@ -383,25 +387,32 @@ body{
     padding: 20px;
     font-size: 20px;
     border-left: 10px double #312819;
+    font-family: 'Hair-2';
+    font-weight: 700;
+    font-size: 22px;
+    word-spacing: 3px;
 }
 
 .popup__description a {
     font-size: 25px;
     font-family: 'PosteRetro';
+    text-decoration: none;
+    font-weight: 700;
+    color: #312819;
 }
 
 .desc{
     color: #312819;
-    font-family: Courier;
+    font-family: 'PosteRetro';
     font-style: italic;
-    font-size: 19px;
+    font-size: 15px;
     margin-top: 5px;
 }
 
 .about {
     position:absolute;
     background-color: #ebe4e1;
-    width:366px;
+    width:370px;
     height:50px;
     opacity: 0.7;
     bottom: 10px;
