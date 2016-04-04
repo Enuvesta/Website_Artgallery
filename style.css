@@ -3,7 +3,7 @@ html {
 }
 body{
     margin: 0;
-	background: url('fonon2.jpg') repeat 0px 0px; 
+	background: url('../images/fonon2.jpg') repeat 0px 0px; 
 }
 .container{
     height: 100px;
@@ -70,7 +70,7 @@ body{
     height: 50px;
     width: 390px;
     margin: 0 auto;
-    background-image: url('m_ven0.jpg');
+    background-image: url('../images/m_ven0.jpg');
     background-size: cover; 
 }
 .button_r {
@@ -78,7 +78,7 @@ body{
     width: 142px;
     margin: 4px 40px 4px 40px; 
     float: right;
-    background-image: url('menu_item_bg.jpg');
+    background-image: url('../images/menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
     display: inline-block;
@@ -96,7 +96,7 @@ body{
     width: 142px;
     margin: 4px 40px 4px 40px; 
     float: left;
-    background-image: url('menu_item_bg.jpg');
+    background-image: url('../images/menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
     display: inline-block;
@@ -209,28 +209,28 @@ body{
 }
 #one {
     position:relative;
-    background-image: url('Repin.jpg');
+    background-image: url('../images/Repin.jpg');
     width:100%;
     height:100%;
     background-size: cover;
 }
 #two {
     position:relative;
-    background-image: url('Pompeii.jpg');
+    background-image: url('../images/Pompeii.jpg');
     width:100%;
     height:100%;
     background-size: cover;
 }
 #three {
     position:relative;
-    background-image: url('vkusno.jpg');
+    background-image: url('../images/vkusno.jpg');
     width:100%;
     height:100%;
     background-size: cover;
 }
 #four {
     position:relative;
-    background-image: url('Dublin.jpg');
+    background-image: url('../images/Dublin.jpg');
     width:100%;
     height:100%;
     background-size: cover;
@@ -265,7 +265,7 @@ body{
     height:16px;
     overflow:hidden;
     text-indent:-9999px;
-    background:url(radioBg.png) center bottom no-repeat;
+    background:url(../images/radioBg.png) center bottom no-repeat;
 }
 .slider-controls .control-slide:hover {
     cursor:pointer;
@@ -282,7 +282,7 @@ body{
     top:0;
     overflow:hidden;
     text-indent:-999px;
-    background:url(arrowBg.png) left center no-repeat;
+    background:url(../images/arrowBg.png) left center no-repeat;
     opacity:0.8;
     z-index:3;
 }
@@ -291,7 +291,7 @@ body{
 }
 .next {
     right:10px;
-    background:url(arrowBg.png) right center no-repeat;
+    background:url(../images/arrowBg.png) right center no-repeat;
 }
 .prew:hover, .next:hover {
     opacity:1;
@@ -314,14 +314,14 @@ body{
     border-bottom: 3px solid #312819;
 }
 #venzel_1{
-    background-image: url('venzel_6_1.png');
+    background-image: url('../images/venzel_6_1.png');
     width: 100px;
     height: 95px;
     background-size: cover;
     float: right;
 }
 #venzel_2{
-    background: url('venzel_6.png');
+    background: url('../images/venzel_6.png');
     width: 100px;
     height: 95px;
     float: left;

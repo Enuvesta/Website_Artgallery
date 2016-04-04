@@ -3,7 +3,7 @@ html {
 }
 body{
     margin: 0;
-	background: url('fonon2.jpg') repeat 0px 0px; 
+	background: url('../images/fonon2.jpg') repeat 0px 0px; 
 }
 
 
@@ -110,7 +110,7 @@ body{
     height: 50px;
     width: 390px;
     margin: 0 auto;
-    background-image: url('m_ven0.jpg');
+    background-image: url('../images/m_ven0.jpg');
     background-size: cover; 
 }
 .button_r {
@@ -118,7 +118,7 @@ body{
     width: 142px;
     margin: 4px 40px 4px 40px; 
     float: right;
-    background-image: url('menu_item_bg.jpg');
+    background-image: url('../images/menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
     display: inline-block;
@@ -136,7 +136,7 @@ body{
     width: 142px;
     margin: 4px 40px 4px 40px; 
     float: left;
-    background-image: url('menu_item_bg.jpg');
+    background-image: url('../images/menu_item_bg.jpg');
     background-size: cover;
     text-align: center;
     display: inline-block;
@@ -271,116 +271,116 @@ body{
 }
 
 .popup__image_type_portray {
-    background-image: url('Dostoevsky_1872.jpg');
+    background-image: url('../images/Dostoevsky_1872.jpg');
 }
 
 .popup__image_type_landscape {
-    background-image: url('Levitan_vesna_bolsh_voda.jpg');
+    background-image: url('../images/Levitan_vesna_bolsh_voda.jpg');
 }
 .popup__image_type_historical{
-    background-image: url('oMakovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg');
+    background-image: url('../images/oMakovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg');
 }
 .popup__image_type_batal{
-    background-image: url('averyanov2.jpg');
+    background-image: url('../images/averyanov2.jpg');
 }
 .popup__image_type_nature{
-    background-image: url('Dubovik_Anastasia_Igorevna_Naturmort_Pereryv_Holst_Maslo-873x1024.jpg');
+    background-image: url('../images/Dubovik_Anastasia_Igorevna_Naturmort_Pereryv_Holst_Maslo-873x1024.jpg');
 }
 .popup__image_type_zhanrov{
-    background-image: url('0_b3227_569220cd_L.jpg');
+    background-image: url('../images/0_b3227_569220cd_L.jpg');
 }
 .popup__image_type_architecture{
-    background-image: url('09b9879a65ab.jpg');
+    background-image: url('../images/09b9879a65ab.jpg');
 }
 .popup__image_type_religion{
-    background-image: url('94295649_large_Nesterov_Mihail27.png');
+    background-image: url('../images/94295649_large_Nesterov_Mihail27.png');
 }
 .popup__image_type_barokko{
-    background-image: url('43.jpg');
+    background-image: url('../images/43.jpg');
 }
 .popup__image_type_kubizm{
-    background-image: url('Akhmatova_by_Altman.jpeg.jpeg');
+    background-image: url('../images/Akhmatova_by_Altman.jpeg.jpeg');
 }
 .popup__image_type_ekspresseonizm{
-    background-image: url('be4dfb60cc1a1d41ac47061390de333d.jpg');
+    background-image: url('../images/be4dfb60cc1a1d41ac47061390de333d.jpg');
 }
 .popup__image_type_impresseonizm{
-    background-image: url('1-klod-mone-dama-s-zontikom.jpg');
+    background-image: url('../images/1-klod-mone-dama-s-zontikom.jpg');
 }
 .popup__image_type_modernizm{
-    background-image: url('vrubel25.jpg');
+    background-image: url('../images/vrubel25.jpg');
 }
 .popup__image_type_neoklassicizm{
-    background-image: url('энгр1.jpg');
+    background-image: url('../images/энгр1.jpg');
 }
 .popup__image_type_realizm{
-    background-image: url('ribera-penitent-magdalene.jpg');
+    background-image: url('../images/ribera-penitent-magdalene.jpg');
 }
 .popup__image_type_romantizm{
-    background-image: url('1319377732.jpg');
+    background-image: url('../images/1319377732.jpg');
 }
 .popup__image_type_surrealizm{
-    background-image: url('hudozhnik-mihail-3.jpg');
+    background-image: url('../images/hudozhnik-mihail-3.jpg');
 }
 .popup__image_type_simvolizm{
-    background-image: url('aade5faeb0f7eaf74762670c0ae.jpg');
+    background-image: url('../images/aade5faeb0f7eaf74762670c0ae.jpg');
 }
 .popup__image_type_stankovaya{
-    background-image: url('Ivan-Ayvazovskiy-Devyatyy-val-1850.jpg');
+    background-image: url('../images/Ivan-Ayvazovskiy-Devyatyy-val-1850.jpg');
 }
 .popup__image_type_monumental{
-    background-image: url('mediapreview.jpg');
+    background-image: url('../images/mediapreview.jpg');
 }
 .popup__image_type_decor{
-    background-image: url('87307515_4634571_benois_cost_ballerina_petrushka.jpg');
+    background-image: url('../images/87307515_4634571_benois_cost_ballerina_petrushka.jpg');
 }
 .popup__image_type_miniature{
-    background-image: url('13cbb62659c9.jpg');
+    background-image: url('../images/13cbb62659c9.jpg');
 }
 .popup__image_type_maslo{
-    background-image: url('68a44.jpg');
+    background-image: url('../images/68a44.jpg');
 }
 .popup__image_type_tempera{
-    background-image: url('172-2.jpg');
+    background-image: url('../images/172-2.jpg');
 }
 .popup__image_type_guash{
-    background-image: url('Vincent_van_Gogh_-_Corridor_in_the_Asylum.JPG');
+    background-image: url('../images/Vincent_van_Gogh_-_Corridor_in_the_Asylum.JPG');
 }
 .popup__image_type_pastel{
-    background-image: url('Chocolate_girl.jpg');
+    background-image: url('../images/Chocolate_girl.jpg');
 }
 .popup__image_type_tush{
-    background-image: url('000038.jpg');
+    background-image: url('../images/000038.jpg');
 }
 .popup__image_type_freska{
-    background-image: url('1732.jpg');
+    background-image: url('../images/1732.jpg');
 }
 .popup__image_type_grizal{
-    background-image: url('cms.jpg');
+    background-image: url('../images/cms.jpg');
 }
 .popup__image_type_karnaziya{
-    background-image: url('Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg');
+    background-image: url('../images/Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg');
 }
 .popup__image_type_lessirovka{
-    background-image: url('657px-Van_Eyck_-_Arnolfini_Portrait.jpg');
+    background-image: url('../images/657px-Van_Eyck_-_Arnolfini_Portrait.jpg');
 }
 .popup__image_type_puantilizm{
-    background-image: url('IMG_0030.jpg');
+    background-image: url('../images/IMG_0030.jpg');
 }
 .popup__image_type_sfumato{
-    background-image: url('the-magdalene(2).jpg');
+    background-image: url('../images/the-magdalene(2).jpg');
 }
 .popup__image_type_kleevaya{
-    background-image: url('kleevaya.jpg');
+    background-image: url('../images/kleevaya.jpg');
 }
 .popup__image_type_vosk{
-    background-image: url('Petersinai.jpg');
+    background-image: url('../images/Petersinai.jpg');
 }
 .popup__image_type_akvarel{
-    background-image: url('Idalia_Poletica_portrait.jpg');
+    background-image: url('../images/Idalia_Poletica_portrait.jpg');
 }
 .popup__image_type_emal{
-    background-image: url('panno_arka_kopi.jpg');
+    background-image: url('../images/panno_arka_kopi.jpg');
 }
 .popup__description {
     width: 600px;
@@ -435,14 +435,14 @@ body{
     border-bottom: 3px solid #312819;
 }
 #venzel_1{
-    background-image: url('venzel_6_1.png');
+    background-image: url('../images/venzel_6_1.png');
     width: 100px;
     height: 95px;
     background-size: cover;
     float: right;
 }
 #venzel_2{
-    background: url('venzel_6.png');
+    background: url('../images/venzel_6.png');
     width: 100px;
     height: 95px;
     float: left;
