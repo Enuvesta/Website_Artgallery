@@ -1,0 +1,450 @@
+html {
+	height: 100%;
+}
+body{
+    margin: 0;
+	background: url('../images/fonon2.jpg') repeat 0px 0px; 
+}
+
+
+@font-face {
+    font-family: 'foglihtenno06';
+    src: url('shrifts/foglihtenno06/foglihtenno06.eot');
+    src: url('shrifts/foglihtenno06/foglihtenno06.eot?#iefix') format('embedded-opentype'),
+         url('shrifts/foglihtenno06/foglihtenno06.woff') format('woff'),
+         url('shrifts/foglihtenno06/foglihtenno06.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'beer_money';
+    src: url('shrifts/beer_money/beer_money.eot');
+    src: url('shrifts/beer_money/beer_money.eot?#iefix') format('embedded-opentype'),
+         url('shrifts/beer_money/beer_money.woff') format('woff'),
+         url('shriftsbeer_money/beer_money.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'chibola-webfont';
+    src: url('shrifts/chibola-webfont/chibola-webfont.eot');
+    src: url('shrifts/chibola-webfont/chibola-webfont.eot?#iefix') format('embedded-opentype'),
+         url('shrifts/chibola-webfont/chibola-webfont.woff') format('woff'),
+         url('shrifts/chibola-webfont/chibola-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url(http://allfont.ru/css/?fonts=chibola);
+@import url(http://allfont.ru/css/?fonts=harlequinade);
+
+.page{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100px;
+}
+.page_logo {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.page_logo:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.page_logo:hover, .page_logo:focus, .page_logo:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.page_logo:before, .page_logo:focus:before, .page_logo:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+.page_logo a{
+    font-family: 'PosteRetro';
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #312819;
+    text-decoration: none;
+}
+.menu{
+    width: 100%;
+    background-color: #ebe4e1;
+    height: 50px;
+    border-top: 8px double #312819;
+    border-bottom: 8px double #312819;
+}
+.venzel{
+    height: 50px;
+    width: 390px;
+    margin: 0 auto;
+    background-image: url('../images/m_ven0.jpg');
+    background-size: cover; 
+}
+.button_r {
+    height: 40px;
+    width: 142px;
+    margin: 4px 40px 4px 40px; 
+    float: right;
+    background-image: url('../images/menu_item_bg.jpg');
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.button_l {
+    height: 40px;
+    width: 142px;
+    margin: 4px 40px 4px 40px; 
+    float: left;
+    background-image: url('../images/menu_item_bg.jpg');
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.button_r a, .button_l a{
+    margin: 0px;
+    font-family: 'PosteRetro';
+    font-size: 25px;
+    color: #ebe4e1;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+.button_r:before, .button_r:after, .button_l:before, .button_l:after {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 5px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.button_r:before, .button_l:before {
+    bottom: 100%;
+    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.button_r:after, .button_l:after {
+    top: 100%;
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.button_r:hover:before, .button_r:focus:before, .button_r:active:before, .button_r:hover:after, .button_r:focus:after, .button_r:active:after {
+    opacity: 1;
+}
+.button_l:hover:before, .button_l:focus:before, .button_l:active:before, .button_l:hover:after, .button_l:focus:after, .button_l:active:after {
+    opacity: 1;
+}
+.genus{
+    border-spacing: 10px 5px;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.genus caption{
+    border: 10px double #312819;
+    margin: 0 auto;
+    height: 34px;
+    background-color: #ebe4e1;
+    margin-top: 5px;
+    font-family: 'PosteRetro';
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #312819;
+}
+.genus td{
+    width:200px;
+    border: 10px double #312819;
+}
+.first {
+    background-color: #ebe4e1;
+}
+.home-active{
+    width: 270px;
+    height: 200px;   
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.home-active img{
+    width: 270px;
+    height: 200px;     
+}
+ 
+.block-hidden{    
+    opacity: 0;
+}
+
+.home-active:hover .block-hidden{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute; top: 0; left: 0;
+    background: rgba(41,37,37,0.8);
+    color: #ebe4e1;
+}
+.block-hidden p{
+    position: absolute; 
+    bottom: 5%;
+    right: 5%;
+    font-family: 'PosteRetro';
+    font-size: 13px;
+
+}
+.block-hidden .read-more{
+    position: absolute;
+    top: 5%;
+    left: 5%;   
+}
+.block-hidden .read-more a{
+    color: #ebe4e1;
+    text-decoration: none;
+    font-family: 'PosteRetro';    
+}
+
+.popup {
+    padding: 0;
+    width: 1000px;
+    height: 500px;
+    overflow: visible;
+    background-color: #ebe4e1;
+    border: 2px double #312819;
+}
+
+.popup__image {
+    width: 450px;
+    background-size: cover;
+}
+
+.popup__image_type_portray {
+    background-image: url('../images/Dostoevsky_1872.jpg');
+}
+
+.popup__image_type_landscape {
+    background-image: url('../images/Levitan_vesna_bolsh_voda.jpg');
+}
+.popup__image_type_historical{
+    background-image: url('../images/oMakovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg');
+}
+.popup__image_type_batal{
+    background-image: url('../images/averyanov2.jpg');
+}
+.popup__image_type_nature{
+    background-image: url('../images/Dubovik_Anastasia_Igorevna_Naturmort_Pereryv_Holst_Maslo-873x1024.jpg');
+}
+.popup__image_type_zhanrov{
+    background-image: url('../images/0_b3227_569220cd_L.jpg');
+}
+.popup__image_type_architecture{
+    background-image: url('../images/09b9879a65ab.jpg');
+}
+.popup__image_type_religion{
+    background-image: url('../images/94295649_large_Nesterov_Mihail27.png');
+}
+.popup__image_type_barokko{
+    background-image: url('../images/43.jpg');
+}
+.popup__image_type_kubizm{
+    background-image: url('../images/Akhmatova_by_Altman.jpeg.jpeg');
+}
+.popup__image_type_ekspresseonizm{
+    background-image: url('../images/be4dfb60cc1a1d41ac47061390de333d.jpg');
+}
+.popup__image_type_impresseonizm{
+    background-image: url('../images/1-klod-mone-dama-s-zontikom.jpg');
+}
+.popup__image_type_modernizm{
+    background-image: url('../images/vrubel25.jpg');
+}
+.popup__image_type_neoklassicizm{
+    background-image: url('../images/энгр1.jpg');
+}
+.popup__image_type_realizm{
+    background-image: url('../images/ribera-penitent-magdalene.jpg');
+}
+.popup__image_type_romantizm{
+    background-image: url('../images/1319377732.jpg');
+}
+.popup__image_type_surrealizm{
+    background-image: url('../images/hudozhnik-mihail-3.jpg');
+}
+.popup__image_type_simvolizm{
+    background-image: url('../images/aade5faeb0f7eaf74762670c0ae.jpg');
+}
+.popup__image_type_stankovaya{
+    background-image: url('../images/Ivan-Ayvazovskiy-Devyatyy-val-1850.jpg');
+}
+.popup__image_type_monumental{
+    background-image: url('../images/mediapreview.jpg');
+}
+.popup__image_type_decor{
+    background-image: url('../images/87307515_4634571_benois_cost_ballerina_petrushka.jpg');
+}
+.popup__image_type_miniature{
+    background-image: url('../images/13cbb62659c9.jpg');
+}
+.popup__image_type_maslo{
+    background-image: url('../images/68a44.jpg');
+}
+.popup__image_type_tempera{
+    background-image: url('../images/172-2.jpg');
+}
+.popup__image_type_guash{
+    background-image: url('../images/Vincent_van_Gogh_-_Corridor_in_the_Asylum.JPG');
+}
+.popup__image_type_pastel{
+    background-image: url('../images/Chocolate_girl.jpg');
+}
+.popup__image_type_tush{
+    background-image: url('../images/000038.jpg');
+}
+.popup__image_type_freska{
+    background-image: url('../images/1732.jpg');
+}
+.popup__image_type_grizal{
+    background-image: url('../images/cms.jpg');
+}
+.popup__image_type_karnaziya{
+    background-image: url('../images/Leonardo_da_Vinci_attributed_-_Madonna_Litta.jpg');
+}
+.popup__image_type_lessirovka{
+    background-image: url('../images/657px-Van_Eyck_-_Arnolfini_Portrait.jpg');
+}
+.popup__image_type_puantilizm{
+    background-image: url('../images/IMG_0030.jpg');
+}
+.popup__image_type_sfumato{
+    background-image: url('../images/the-magdalene(2).jpg');
+}
+.popup__image_type_kleevaya{
+    background-image: url('../images/kleevaya.jpg');
+}
+.popup__image_type_vosk{
+    background-image: url('../images/Petersinai.jpg');
+}
+.popup__image_type_akvarel{
+    background-image: url('../images/Idalia_Poletica_portrait.jpg');
+}
+.popup__image_type_emal{
+    background-image: url('../images/panno_arka_kopi.jpg');
+}
+.popup__description {
+    width: 600px;
+    padding: 20px;
+    font-size: 20px;
+    border-left: 10px double #312819;
+    font-family: 'Hair-2';
+    font-weight: 700;
+    font-size: 22px;
+    word-spacing: 3px;
+}
+
+.popup__description a {
+    font-size: 25px;
+    font-family: 'PosteRetro';
+    text-decoration: none;
+    font-weight: 700;
+    color: #312819;
+}
+
+.desc{
+    color: #312819;
+    font-family: 'PosteRetro';
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.about {
+    position:absolute;
+    background-color: #ebe4e1;
+    width:370px;
+    height:50px;
+    opacity: 0.7;
+    bottom: 10px;
+    padding: 10px;
+}
+#fancybox-title-inside{
+    font-size: 25px;
+}
+.footer{
+    background-color: #ebe4e1;
+    font-family: 'PosteRetro';
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: -85px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 3px solid #312819;
+    border-bottom: 3px solid #312819;
+}
+#venzel_1{
+    background-image: url('../images/venzel_6_1.png');
+    width: 100px;
+    height: 95px;
+    background-size: cover;
+    float: right;
+}
+#venzel_2{
+    background: url('../images/venzel_6.png');
+    width: 100px;
+    height: 95px;
+    float: left;
+    background-size: cover;
+}
